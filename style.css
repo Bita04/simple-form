@@ -14,12 +14,35 @@ input{
 p{
     margin-left: 30px;
 }
+input[type=file]{
+    color: rgb(242, 241, 241);
+}
+input[type=file]::file-selector-button {
+    float: right;
+    margin-right: 0px;
+    border: none;
+    background: rgb(57, 196, 196);
+    padding: 5px 10px;
+    
+    color: #fff;
+}
+
+input[type=file]::file-selector-button:hover {
+    background: rgb(242, 241, 241);
+    color: rgb(57, 196, 196);
+}
+hr{
+    color: white;
+    height: 1px;
+    width: 90%;
+}
+
 .base{
     position: relative;
     left: -50%;
     top: 0;
     width:900px;
-    height: 800px;
+    height: 700px;
     background-color: white;
     border-radius: 5%;
 
@@ -39,6 +62,7 @@ p{
     background-color: rgb(57, 196, 196);
     float: left;
     border-radius: 5%;
+   
 }
 .right{
     width: 50%;
@@ -59,9 +83,30 @@ p{
     border-radius: 8px;
     color: rgb(57, 196, 196);
 }
+/* .container{
+    position: relative;
+    margin-bottom: 12px;
+        cursor: pointer;
+        font-size: 22px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+}
 .checkBox{
-    border: 2px solid rgb(57, 196, 196);
-    border-radius: 50%;
+    position: absolute;
+} */
+.content{
+    width: 86%;
+    margin-left: 10%;
+   
+}
+#checkBox input[type="radio"]{
+    vertical-align: middle;
+    
+}
+#checkbox label{
+    margin-top: -70px;
 }
 #Time{
     border: 2px solid rgb(57, 196, 196);
@@ -142,4 +187,26 @@ p{
         height: 30px;
         margin-top: 20px;
         margin-left: 15px;
+}
+
+#h1{
+    font-weight: lighter;
+}
+#h2{
+    font-weight: 500;
+}
+#logo{
+    width: 100px;
+    height: 250px;
+}
+#h3{
+    font-weight: 300;
+}
+#h32{
+    font-size:medium;
+}
+#num{
+    color: white;
+    font-weight: 100;
+    margin-left: 20%;
 }

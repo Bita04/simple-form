@@ -6,8 +6,19 @@
         <link rel="stylesheet" type="text/css" href="./style.css">
     </head>
     <body>
+        
         <div class="base">
-            <div class="left"></div>
+            <div class="left">
+                <div class="content">
+                <h1 id="h1">Request Your Thyroid Nodule</h1>
+                <h2 id="h2">consultation woth Dr.Alireza Falahati</h2>
+                <div id="logo"></div>
+                <h3 id="h3"><strong>RFA</strong> and <strong>MWA</strong> are two minimally invasive procedures ideal for people with thyroid nodules who prefer to avoid surgery and avoid loss of their thyroid and yet are interested in shrinking their nodules to a negligible size. </h3>
+                <h3 id="h32">contact us information for any questions or concerns</h3>
+                <hr>
+                <h1 id="num">801-747-2800</h1>
+                </div>
+            </div>
             <div class="right">
                 <form>
                     <p>Appointment Request Form</p>
@@ -51,19 +62,20 @@
                         <label id="gl">Reason For Appointment :</label>
                         <input type="text" name="text" id="text" placeholder="New consultation" required>
                     </div>
-                    <div class="input" >
+                    <div class="input" id="checkBox">
                         <label id="k">Do You have any thyroid nodules?</label>
-                        <Label>Yes</Label>
-                            <input type="checkbox" class="checkBox">
-                        
-                        <Label>No</Label>
-                            <input type="checkbox" class="checkBox">
-                        
+                        <Label class="container">Yes
+                            <input type="radio" name="radio" class="checkBox" required>
+                            <span></span>
+                        </Label>
+                        <Label class="container" >No
+                            <input type="radio" name="radio" class="container" required>
+                        </Label>
                     </div>
                     <div class="input " id="h">
                         <label >Document Upload:</label>
                         
-                        <input type="file" id="file" name="file" accept="image/pdf ,image/png, image/jpeg" />
+                        <input type="file" id="file" name="file" accept="image/pdf ,image/png, image/jpeg" title="&nbsp;" />
                         <p id="upload">uploading relevant medical records , lab results , and imaging reprts(PDF ,JPEG , PNG)</p>
                     </div>
                     <div class="input" id="i">
