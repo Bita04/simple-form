@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Form</title>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+    </head>
+    <body>
+        
+        <div class="base">
+            <div class="left">
+                <div class="content">
+                <h1 id="h1">Request Your Thyroid Nodule</h1>
+                <h2 id="h2">consultation woth Dr.Alireza Falahati</h2>
+                <div id="logo"></div>
+                <h3 id="h3"><strong>RFA</strong> and <strong>MWA</strong> are two minimally invasive procedures ideal for people with thyroid nodules who prefer to avoid surgery and avoid loss of their thyroid and yet are interested in shrinking their nodules to a negligible size. </h3>
+                <h3 id="h32">contact us information for any questions or concerns</h3>
+                <hr>
+                <h1 id="num">801-747-2800</h1>
+                </div>
+            </div>
+            <div class="right">
+                <form>
+                    <p>Appointment Request Form</p>
+                    <div class="input">
+                        <label>First Name:</label>
+                        <input type="text" name="FirstName" placeholder="" required id="a">
+                    </div>
+                    <div class="input">
+                        <label>Last Name:</label>
+                        <input type="text" name="LastName" placeholder="" required id="b">
+                    </div>
+                    <div class="input">
+                        <label>Email:</label>
+                        <input type="email" name="Email" placeholder="" required id="c">
+                    </div>
+                    <div class="input">
+                        <label>Phone Number:</label>
+                        <input type="tel" name="FirstName" placeholder="" required id="d">
+                    </div>
+                    <p>Preferred appointment</p>
+                    <div class="input" id="e">
+                        <label id="el">Date:</label>
+                        <select name="D" id="Date" class="date" >
+                            <option value="" disabled selected>D</option>
+
+                        </select>
+                        <select name="M" id="Month" class="date">
+                            <option value="" disabled selected>M</option>
+                        </select>
+                        <select name="Y" id="Year" class="date">
+                            <option value="" disabled selected>Y</option>
+                        </select>
+                    </div>
+                    <div class="input">
+                        <label id="f">Time</label>
+                        <select name="time" id="Time">
+                            <option value="" disabled selected>08:00 AM</option>
+                        </select>
+                    </div>
+                    <div class="input" id="g">
+                        <label id="gl">Reason For Appointment :</label>
+                        <input type="text" name="text" id="text" placeholder="New consultation" required>
+                    </div>
+                    <div class="input" id="checkBox">
+                        <label id="k">Do You have any thyroid nodules?</label>
+                        <Label class="container">Yes
+                            <input type="radio" name="radio" class="checkBox" required>
+                            <span></span>
+                        </Label>
+                        <Label class="container" >No
+                            <input type="radio" name="radio" class="container" required>
+                        </Label>
+                    </div>
+                    <div class="input " id="h">
+                        <label >Document Upload:</label>
+                        
+                        <input type="file" id="file" name="file" accept="image/pdf ,image/png, image/jpeg" title="&nbsp;" />
+                        <p id="upload">uploading relevant medical records , lab results , and imaging reprts(PDF ,JPEG , PNG)</p>
+                    </div>
+                    <div class="input" id="i">
+                        <label>Insurance Upload:</label>
+                        <input type="file" name="file" placeholder="" required>
+                    </div>
+                    <div class="input" id="j">
+                        <label>Driver's license Upload:</label>
+                        <input type="file" name="file" placeholder="" required>
+                    </div>
+                    <div>
+                        <input type="reset" name="btn" value="cancel" id="reset">
+                        <input type="submit" name="btn" value="Request Appointment" id="Login">
+                        
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </body>
+</html>
