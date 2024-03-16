@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Form</title>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+    </head>
+    <body>
+        <div class="base">
+            <div class="left"></div>
+            <div class="right">
+                <form>
+                    <p>Appointment Request Form</p>
+                    <div class="input">
+                        <label>First Name:</label>
+                        <input type="text" name="FirstName" placeholder="" required id="a">
+                    </div>
+                    <div class="input">
+                        <label>Last Name:</label>
+                        <input type="text" name="LastName" placeholder="" required id="b">
+                    </div>
+                    <div class="input">
+                        <label>Email:</label>
+                        <input type="email" name="Email" placeholder="" required id="c">
+                    </div>
+                    <div class="input">
+                        <label>Phone Number:</label>
+                        <input type="tel" name="FirstName" placeholder="" required id="d">
+                    </div>
+                    <p>Preferred appointment</p>
+                    <div class="input" id="e">
+                        <label id="el">Date:</label>
+                        <select name="D" id="Date" class="date" >
+                            <option value="" disabled selected>D</option>
+
+                        </select>
+                        <select name="M" id="Month" class="date">
+                            <option value="" disabled selected>M</option>
+                        </select>
+                        <select name="Y" id="Year" class="date">
+                            <option value="" disabled selected>Y</option>
+                        </select>
+                    </div>
+                    <div class="input">
+                        <label id="f">Time</label>
+                        <select name="time" id="Time">
+                            <option value="" disabled selected>08:00 AM</option>
+                        </select>
+                    </div>
+                    <div class="input" id="g">
+                        <label id="gl">Reason For Appointment :</label>
+                        <input type="text" name="text" id="text" placeholder="New consultation" required>
+                    </div>
+                    <div class="input" >
+                        <label id="k">Do You have any thyroid nodules?</label>
+                        <Label>Yes</Label>
+                            <input type="checkbox" class="checkBox">
+                        
+                        <Label>No</Label>
+                            <input type="checkbox" class="checkBox">
+                        
+                    </div>
+                    <div class="input " id="h">
+                        <label >Document Upload:</label>
+                        
+                        <input type="file" id="file" name="file" accept="image/pdf ,image/png, image/jpeg" />
+                        <p id="upload">uploading relevant medical records , lab results , and imaging reprts(PDF ,JPEG , PNG)</p>
+                    </div>
+                    <div class="input" id="i">
+                        <label>Insurance Upload:</label>
+                        <input type="file" name="file" placeholder="" required>
+                    </div>
+                    <div class="input" id="j">
+                        <label>Driver's license Upload:</label>
+                        <input type="file" name="file" placeholder="" required>
+                    </div>
+                    <div>
+                        <input type="reset" name="btn" value="cancel" id="reset">
+                        <input type="submit" name="btn" value="Request Appointment" id="Login">
+                        
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </body>
+</html>

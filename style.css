@@ -1,0 +1,145 @@
+body{
+    position: absolute;
+    left: 50%;
+    top: 6%;
+    background-color: rgb(5, 129, 115);
+
+}
+input{
+    border-color: rgb(57, 196, 196);
+    border-radius: 8px;
+    height: 25px;
+}
+
+p{
+    margin-left: 30px;
+}
+.base{
+    position: relative;
+    left: -50%;
+    top: 0;
+    width:900px;
+    height: 800px;
+    background-color: white;
+    border-radius: 5%;
+
+    }
+.base p{
+    margin-top: 30px;
+}
+
+.base div input{
+    border: 2px solid rgb(57, 196, 196);
+    background-color: rgb(242, 241, 241);
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(57, 196, 196);
+    float: left;
+    border-radius: 5%;
+}
+.right{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+.right div{
+    margin-top: 10px;
+}
+.input{
+    margin-left: 30px;
+}
+.date{
+    border: 2px solid rgb(57, 196, 196);
+    width: 50px;
+    height: 30px;
+    border-color: rgb(57, 196, 196);
+    border-radius: 8px;
+    color: rgb(57, 196, 196);
+}
+.checkBox{
+    border: 2px solid rgb(57, 196, 196);
+    border-radius: 50%;
+}
+#Time{
+    border: 2px solid rgb(57, 196, 196);
+    width: 145px;
+    height: 30px;
+    border-color: rgb(57, 196, 196);
+    border-radius: 8px;
+    color: rgb(57, 196, 196);
+}
+#a{
+    margin-left: 88px;
+}
+#b {
+    margin-left: 90px;
+}
+#c {
+    margin-left: 122px;
+}
+#d {
+    margin-left: 65px;
+}
+#el {
+    margin-right: 40px;
+}
+#e select{
+    margin-left: 38px;
+}
+#f{
+    margin-right: 80px;
+}
+#gl{
+    margin-right: 70px;
+}
+#g{
+    margin-top: 15px;
+}
+#k{
+    margin-right: 30px;
+}
+#h input{
+    margin-top: 20px;
+    margin-left: 30px;
+    width:200px;
+}
+#i input {
+    margin-top: 15px;
+    margin-left: 35px;
+    width: 200px;
+}
+#j input {
+    margin-top: 15px;
+    margin-left: 0px;
+    width: 200px;
+}
+#text{
+    width: 100px;
+    color: black;
+}
+#upload{
+    font-size: x-small;
+    color: rgb(214, 130, 33);
+    margin-left: 0px;
+    margin-top: 0px;
+}
+#Login{
+    background-color: rgb(57, 196, 196);
+    color: white;
+    width: 180px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+#reset{
+    border-color: gray;
+    color: gray;
+    background-color: white;
+    width: 180px;
+        height: 30px;
+        margin-top: 20px;
+        margin-left: 15px;
+}
